@@ -452,6 +452,9 @@ body {
 .block-footer-logo {
   margin-right: 120px;
 }
+.block-footer-social-media {
+  margin-right: 80px;
+}
 .title-footer {
   color: var(--background-color);
   font-family: var(--main-font-family);
@@ -482,6 +485,13 @@ body {
   justify-content: center;
   gap: 16px;
   margin-top: 8px;
+}
+.input-email-footer {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
 }
 .link-portfolio-picture {
   display: block;
@@ -535,6 +545,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
