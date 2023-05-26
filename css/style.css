@@ -837,12 +837,10 @@ textarea {
 
 .contact-form-checkbox:checked + .contact-form-checkbox-text .contact-form-own-checkbox {
   background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
   border-color: 1px solid #404bbf;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 2px;
   fill: #fff;
-  border: none;
 }
 
 .policy {
