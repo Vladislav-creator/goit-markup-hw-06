@@ -531,7 +531,7 @@ body {
   letter-spacing: 0.04em;
 
   display: flex;
-  gap: 16px;
+
   align-items: center;
   justify-content: center;
   min-width: 165px;
@@ -557,6 +557,8 @@ body {
   /* WHITE */
 
   color: var(--background-color-white);
+}
+.footer-subscribe-icon {
 }
 .footer-btn-subscribe:hover,
 .footer-btn-subscribe:focus {
@@ -820,7 +822,7 @@ textarea {
 .contact-form-own-checkbox {
   border-radius: 2px;
   border: 1px solid #2e2f42;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   fill: transparent;
   cursor: pointer;
   margin-right: 6px;
@@ -830,7 +832,6 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checbox-icon {
   display: flex;
