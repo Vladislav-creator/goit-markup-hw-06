@@ -560,6 +560,7 @@ body {
 }
 .footer-subscribe-icon {
   margin-left: 16px;
+  fill: #fff;
 }
 .footer-btn-subscribe:hover,
 .footer-btn-subscribe:focus {
