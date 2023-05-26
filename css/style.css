@@ -6,6 +6,7 @@
   --color-brand: #4d5ae5;
   --main-color: #434455;
   --color-icon: #f4f4fd;
+  --color-brand-blue: #404bbf;
 }
 h1,
 h2,
@@ -836,9 +837,9 @@ textarea {
 */
 
 .contact-form-checkbox:checked + .contact-form-checkbox-text .contact-form-own-checkbox {
-  background-color: #404bbf;
+  background-color: var(--color-brand-blue);
   border: none;
-  border-color: 1px solid #404bbf;
+  border-color: 1px solid var(--color-brand-blue);
   border-radius: 2px;
   fill: #fff;
 }
