@@ -494,6 +494,9 @@ body {
   height: 40px;
   background-color: var(--text-color);
 }
+.footer-email-btn {
+  margin-right: 24px;
+}
 .input-email-footer::placeholder {
   font-family: var(--main-font-family);
   font-style: normal;
@@ -510,7 +513,6 @@ body {
 }
 .footer-subscribe-email-btn {
   display: flex;
-  gap: 24px;
 }
 .footer-btn-subscribe {
   font-family: var(--main-font-family);
