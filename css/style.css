@@ -838,7 +838,7 @@ textarea {
 .contact-form-checkbox:checked + .contact-form-checkbox-text .contact-form-own-checkbox {
   background-color: var(--color-brand-blue);
   border: none;
-  border-color: 1px solid #404bbf;
+  border-color: #404bbf;
   border-radius: 2px;
   fill: #fff;
 }
